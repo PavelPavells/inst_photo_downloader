@@ -16,7 +16,7 @@ Usage
 
   inst_photo_downloader [options] 
 
-All the photos will download to `USERS/Pictures/inst_photo_downloader`.
+All the photos will download to `USERS/Pictures/inst_photos`.
 
 Options
 ---------------
