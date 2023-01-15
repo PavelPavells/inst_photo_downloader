@@ -152,7 +152,7 @@ func main() {
 	inputUser = *instagramName;
 
 	user, _ := user.Current();
-	baseDir := fmt.Sprintf("%v/Pictures/goInstagram", user.HomeDir);
+	baseDir := fmt.Sprintf("%v/Pictures/inst_photos", user.HomeDir);
 
 	client = instagram.NewClient(nil);
 	client.ClientID = ClientID;
